@@ -1,0 +1,118 @@
+{
+  "mode": "联网补充模式（经用户授权）",
+  "data_assurance": "source_verified_public_web",
+  "latest_confirmed_issue": "2026113",
+  "next_unconfirmed_issue": "2026114",
+  "records": [
+    {
+      "issue": "2026107",
+      "draw_date": "2026-09-15",
+      "red_sorted": [
+        "01",
+        "05",
+        "09",
+        "17",
+        "24",
+        "33"
+      ],
+      "blue": "04",
+      "source_url": "https://sports.163.com/caipiao/lottery/ssq/2026107",
+      "source_verified": true
+    },
+    {
+      "issue": "2026108",
+      "draw_date": "2026-09-17",
+      "red_sorted": [
+        "06",
+        "11",
+        "13",
+        "14",
+        "20",
+        "28"
+      ],
+      "blue": "16",
+      "source_url": "https://sports.163.com/caipiao/lottery/ssq/2026108",
+      "source_verified": true
+    },
+    {
+      "issue": "2026109",
+      "draw_date": "2026-09-20",
+      "red_sorted": [
+        "09",
+        "12",
+        "15",
+        "26",
+        "30",
+        "33"
+      ],
+      "blue": "06",
+      "source_url": "https://sports.163.com/caipiao/lottery/ssq/2026109",
+      "source_verified": true
+    },
+    {
+      "issue": "2026110",
+      "draw_date": "2026-09-22",
+      "red_sorted": [
+        "02",
+        "05",
+        "16",
+        "19",
+        "26",
+        "32"
+      ],
+      "blue": "14",
+      "source_url": "https://sports.163.com/caipiao/lottery/ssq/2026110",
+      "source_verified": true
+    },
+    {
+      "issue": "2026111",
+      "draw_date": "2026-09-24",
+      "red_sorted": [
+        "06",
+        "07",
+        "14",
+        "22",
+        "31",
+        "32"
+      ],
+      "blue": "05",
+      "source_url": "https://sports.163.com/caipiao/lottery/ssq/2026111",
+      "source_verified": true
+    },
+    {
+      "issue": "2026112",
+      "draw_date": "2026-09-27",
+      "red_sorted": [
+        "01",
+        "04",
+        "11",
+        "12",
+        "17",
+        "29"
+      ],
+      "blue": "11",
+      "source_url": "https://sports.163.com/caipiao/lottery/ssq/2026112",
+      "source_verified": true
+    },
+    {
+      "issue": "2026113",
+      "draw_date": "2026-09-29",
+      "red_sorted": [
+        "03",
+        "04",
+        "20",
+        "24",
+        "29",
+        "30"
+      ],
+      "blue": "11",
+      "source_url": "https://sports.163.com/caipiao/lottery/ssq/2026113",
+      "source_verified": true
+    }
+  ],
+  "corroboration": [
+    "https://sports.sina.cn/2026-09-19/detail-inisinhc2643155.d.html?vt=4",
+    "https://www.scflcp.com.cn/ssq"
+  ],
+  "note": "2026114在查询时未获得已开奖的可核对号码，未写入实际结果。"
+}

@@ -1,0 +1,143 @@
+{
+  "calendar": {
+    "calendar_id": "ZW-DAILY-CALENDAR-2026-2099-V1",
+    "path": "/home/ubuntu/ssq_project/uploaded_project/manus_project_ssq_latest_2026096/offline_calendar/zw_daily_calendar_2026_2099.jsonl",
+    "sha256": "ba9a48b3dbcd7c30ba9b94a8dc14b007d0f7d8178dd2ec67b90da3089a02eb69"
+  },
+  "core_algorithm_id": "ZW-SSQ-RESIDUAL9-V3",
+  "core_forecast": {
+    "algorithm_id": "ZW-SSQ-RESIDUAL9-V3",
+    "base_algorithm_id": "ZW-SSQ-DETERMINISTIC-V1",
+    "base_spec_version": "ZW-SSQ-v1.0.0",
+    "baseline": {
+      "blue": "08",
+      "red": [
+        "05",
+        "08",
+        "16",
+        "18",
+        "23",
+        "33"
+      ]
+    },
+    "candidate_coverage": {
+      "blue_candidates_evaluated": 16,
+      "blue_domain": "01-16",
+      "permanent_exclusions": [],
+      "red_candidates_evaluated": 33,
+      "red_domain": "01-33"
+    },
+    "config_sha256": "56723e12c7324df48e03ab46f335bd5482a4468b162a761052fa25d1689d8b94",
+    "element_scores": {
+      "土": 3,
+      "木": 7,
+      "水": 5,
+      "火": 0,
+      "金": 0
+    },
+    "residual9_corrected": {
+      "blue": "03",
+      "blue_selection_audit": {
+        "03": {
+          "element": "木",
+          "final_score": 42,
+          "residual_score": 0,
+          "tie_hash": "3f5a5df37304891fdc1f00303a0468bc9124cdf43147d52786703fac4a43d6e8",
+          "ziwei_base": 7
+        }
+      },
+      "red": [
+        "03",
+        "08",
+        "13",
+        "18",
+        "23",
+        "33"
+      ],
+      "red_selection_audit": {
+        "03": {
+          "element": "木",
+          "final_score": 50,
+          "residual_score": 8,
+          "tie_hash": "3f5a5df37304891fdc1f00303a0468bc9124cdf43147d52786703fac4a43d6e8",
+          "ziwei_base": 7
+        },
+        "08": {
+          "element": "木",
+          "final_score": 42,
+          "residual_score": 0,
+          "tie_hash": "91cdff5407ad53d41852fd7f1fcf97336822312b2b1a0c0de9dace990adaa9cb",
+          "ziwei_base": 7
+        },
+        "13": {
+          "element": "木",
+          "final_score": 45,
+          "residual_score": 3,
+          "tie_hash": "5cacc04ea615853bc42279aff9d375c776ba0fc63d8cd351844cb873f74fa309",
+          "ziwei_base": 7
+        },
+        "18": {
+          "element": "木",
+          "final_score": 38,
+          "residual_score": -4,
+          "tie_hash": "e98181f0844fe21a4119a9a1e5b49313daf5d9e6e98a7ba6ce80efc4bae10ec7",
+          "ziwei_base": 7
+        },
+        "23": {
+          "element": "木",
+          "final_score": 40,
+          "residual_score": -2,
+          "tie_hash": "19379dc3b0ad37372ed750aace77e1ff9865112732d9d3d551b42b8108df03bb",
+          "ziwei_base": 7
+        },
+        "33": {
+          "element": "木",
+          "final_score": 48,
+          "residual_score": 6,
+          "tie_hash": "c62e583205460089b158a5d9fc3727a7816d20be6b85d3a13a9d6f439b25056e",
+          "ziwei_base": 7
+        }
+      }
+    },
+    "spec_version": "ZW-SSQ-RESIDUAL9-V3.0.0",
+    "target": {
+      "algorithm_id": "ZW-SSQ-DETERMINISTIC-V1",
+      "config_digest": "56723e12c7324df48e03ab46f335bd5482a4468b162a761052fa25d1689d8b94",
+      "day_pillar": "乙卯",
+      "draw_date": "2026-10-08",
+      "issue": "2026115",
+      "nayin_element": "水",
+      "spec_version": "ZW-SSQ-v1.0.0"
+    },
+    "window": {
+      "issues": [
+        "2026114",
+        "2026113",
+        "2026112",
+        "2026111",
+        "2026110",
+        "2026109",
+        "2026108",
+        "2026107",
+        "2026106"
+      ],
+      "length": 9,
+      "order": "newest_to_oldest",
+      "residual_state_sha256": "7a55c6ecafe7fa60b5931f308b6650895dd51670fa58ec914d3c280eda9338e0",
+      "weights": [
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ]
+    }
+  },
+  "data_assurance": "source_verified_public_web_for_2026114",
+  "manual_assisted_algorithm_id": "ZW-SSQ-RESIDUAL9-V3-MANUAL-ASSISTED",
+  "source_registry": "external_source_registry_2026104.json"
+}

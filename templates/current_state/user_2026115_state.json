@@ -1,0 +1,349 @@
+{
+  "algorithm_id": "ZW-SSQ-RESIDUAL9-V3-MANUAL-ASSISTED",
+  "calculation_window": [
+    {
+      "accepted_for_calculation": true,
+      "actual": {
+        "blue": "10",
+        "red_sorted": [
+          "07",
+          "18",
+          "23",
+          "24",
+          "29",
+          "31"
+        ]
+      },
+      "baseline_prediction": {
+        "blue": "06",
+        "red": [
+          "06",
+          "21",
+          "26",
+          "28",
+          "30",
+          "31"
+        ]
+      },
+      "draw_date": "2026-10-06",
+      "entry_assurance": "source_verified_public_web",
+      "issue": "2026114",
+      "position": 1,
+      "ziwei_input": {
+        "day_pillar": "癸丑",
+        "nayin_element": "木"
+      }
+    },
+    {
+      "accepted_for_calculation": true,
+      "actual": {
+        "blue": "11",
+        "red_sorted": [
+          "03",
+          "04",
+          "20",
+          "24",
+          "29",
+          "30"
+        ]
+      },
+      "baseline_prediction": {
+        "blue": "02",
+        "red": [
+          "02",
+          "04",
+          "17",
+          "18",
+          "21",
+          "22"
+        ]
+      },
+      "draw_date": "2026-09-29",
+      "entry_assurance": "source_verified_public_web",
+      "issue": "2026113",
+      "position": 2,
+      "ziwei_input": {
+        "day_pillar": "丙午",
+        "nayin_element": "水"
+      }
+    },
+    {
+      "accepted_for_calculation": true,
+      "actual": {
+        "blue": "11",
+        "red_sorted": [
+          "01",
+          "04",
+          "11",
+          "12",
+          "17",
+          "29"
+        ]
+      },
+      "baseline_prediction": {
+        "blue": "12",
+        "red": [
+          "11",
+          "12",
+          "19",
+          "20",
+          "23",
+          "27"
+        ]
+      },
+      "draw_date": "2026-09-27",
+      "entry_assurance": "source_verified_public_web",
+      "issue": "2026112",
+      "position": 3,
+      "ziwei_input": {
+        "day_pillar": "甲辰",
+        "nayin_element": "火"
+      }
+    },
+    {
+      "accepted_for_calculation": true,
+      "actual": {
+        "blue": "05",
+        "red_sorted": [
+          "06",
+          "07",
+          "14",
+          "22",
+          "31",
+          "32"
+        ]
+      },
+      "baseline_prediction": {
+        "blue": "04",
+        "red": [
+          "04",
+          "14",
+          "15",
+          "17",
+          "21",
+          "24"
+        ]
+      },
+      "draw_date": "2026-09-24",
+      "entry_assurance": "source_verified_public_web",
+      "issue": "2026111",
+      "position": 4,
+      "ziwei_input": {
+        "day_pillar": "辛丑",
+        "nayin_element": "土"
+      }
+    },
+    {
+      "accepted_for_calculation": true,
+      "actual": {
+        "blue": "14",
+        "red_sorted": [
+          "02",
+          "05",
+          "16",
+          "19",
+          "26",
+          "32"
+        ]
+      },
+      "baseline_prediction": {
+        "blue": "16",
+        "red": [
+          "01",
+          "05",
+          "06",
+          "16",
+          "18",
+          "19"
+        ]
+      },
+      "draw_date": "2026-09-22",
+      "entry_assurance": "source_verified_public_web",
+      "issue": "2026110",
+      "position": 5,
+      "ziwei_input": {
+        "day_pillar": "己亥",
+        "nayin_element": "木"
+      }
+    },
+    {
+      "accepted_for_calculation": true,
+      "actual": {
+        "blue": "06",
+        "red_sorted": [
+          "09",
+          "12",
+          "15",
+          "26",
+          "30",
+          "33"
+        ]
+      },
+      "baseline_prediction": {
+        "blue": "11",
+        "red": [
+          "11",
+          "22",
+          "23",
+          "26",
+          "29",
+          "31"
+        ]
+      },
+      "draw_date": "2026-09-20",
+      "entry_assurance": "source_verified_public_web",
+      "issue": "2026109",
+      "position": 6,
+      "ziwei_input": {
+        "day_pillar": "丁酉",
+        "nayin_element": "火"
+      }
+    },
+    {
+      "accepted_for_calculation": true,
+      "actual": {
+        "blue": "16",
+        "red_sorted": [
+          "06",
+          "11",
+          "13",
+          "14",
+          "20",
+          "28"
+        ]
+      },
+      "baseline_prediction": {
+        "blue": "02",
+        "red": [
+          "02",
+          "17",
+          "26",
+          "27",
+          "28",
+          "29"
+        ]
+      },
+      "draw_date": "2026-09-17",
+      "entry_assurance": "source_verified_public_web",
+      "issue": "2026108",
+      "position": 7,
+      "ziwei_input": {
+        "day_pillar": "甲午",
+        "nayin_element": "金"
+      }
+    },
+    {
+      "accepted_for_calculation": true,
+      "actual": {
+        "blue": "04",
+        "red_sorted": [
+          "01",
+          "05",
+          "09",
+          "17",
+          "24",
+          "33"
+        ]
+      },
+      "baseline_prediction": {
+        "blue": "15",
+        "red": [
+          "11",
+          "15",
+          "19",
+          "20",
+          "25",
+          "30"
+        ]
+      },
+      "draw_date": "2026-09-15",
+      "entry_assurance": "source_verified_public_web",
+      "issue": "2026107",
+      "position": 8,
+      "ziwei_input": {
+        "day_pillar": "壬辰",
+        "nayin_element": "水"
+      }
+    },
+    {
+      "accepted_for_calculation": true,
+      "actual": {
+        "blue": "14",
+        "red_sorted": [
+          "06",
+          "11",
+          "13",
+          "14",
+          "22",
+          "30"
+        ]
+      },
+      "baseline_prediction": {
+        "blue": "11",
+        "red": [
+          "01",
+          "11",
+          "12",
+          "13",
+          "29",
+          "31"
+        ]
+      },
+      "draw_date": "2026-09-13",
+      "entry_assurance": "user_attested_not_source_verified",
+      "issue": "2026106",
+      "position": 9,
+      "ziwei_input": {
+        "day_pillar": "庚寅",
+        "nayin_element": "木"
+      }
+    }
+  ],
+  "calendar": {
+    "calendar_id": "ZW-DAILY-CALENDAR-2026-2099-V1",
+    "path": "/home/ubuntu/ssq_project/uploaded_project/manus_project_ssq_latest_2026096/offline_calendar/zw_daily_calendar_2026_2099.jsonl",
+    "sha256": "ba9a48b3dbcd7c30ba9b94a8dc14b007d0f7d8178dd2ec67b90da3089a02eb69"
+  },
+  "core_algorithm_id": "ZW-SSQ-RESIDUAL9-V3",
+  "core_spec_version": "ZW-SSQ-RESIDUAL9-V3.0.0",
+  "data_assurance": "混合状态：2026107–2026114为公开网页来源核验结果；更早记录沿用既有项目记录。",
+  "manual_input_format": "previous_result 包含 issue、draw_date、weekday、red_sorted、blue；next_target 包含 issue、draw_date、weekday。",
+  "manual_state_sha256": "14e10573d405d81ccedd8273359a2669266b3fa11fd808bce5ff3cdc88e5989c",
+  "manual_state_version": "ZW-SSQ-RESIDUAL9-MANUAL-STATE-v1.0.0",
+  "pending_forecast": {
+    "baseline_prediction": {
+      "blue": "08",
+      "red": [
+        "05",
+        "08",
+        "16",
+        "18",
+        "23",
+        "33"
+      ]
+    },
+    "forecast_metadata": {
+      "config_sha256": "56723e12c7324df48e03ab46f335bd5482a4468b162a761052fa25d1689d8b94",
+      "core_algorithm_id": "ZW-SSQ-RESIDUAL9-V3",
+      "residual_state_sha256": "7a55c6ecafe7fa60b5931f308b6650895dd51670fa58ec914d3c280eda9338e0"
+    },
+    "residual9_corrected": {
+      "blue": "03",
+      "red": [
+        "03",
+        "08",
+        "13",
+        "18",
+        "23",
+        "33"
+      ]
+    },
+    "target": {
+      "day_pillar": "乙卯",
+      "draw_date": "2026-10-08",
+      "issue": "2026115",
+      "nayin_element": "水"
+    },
+    "verification_status": "pending_user_attested_result"
+  }
+}

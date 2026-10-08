@@ -1,0 +1,96 @@
+{
+  "spec_version": "ZW-SSQ-v1.0.0",
+  "algorithm_id": "ZW-SSQ-DETERMINISTIC-V1",
+  "encoding": "UTF-8",
+  "canonical_json": "JSON object keys sorted lexicographically; separators are comma and colon; no whitespace; Unicode characters are emitted literally; UTF-8 bytes are hashed.",
+  "element_order": ["水", "火", "木", "金", "土"],
+  "number_element_rule": {
+    "type": "modulo_5",
+    "mapping": {
+      "1": "水",
+      "2": "火",
+      "3": "木",
+      "4": "金",
+      "0": "土"
+    },
+    "red_range": [1, 33],
+    "blue_range": [1, 16]
+  },
+  "stem_element": {
+    "甲": "木",
+    "乙": "木",
+    "丙": "火",
+    "丁": "火",
+    "戊": "土",
+    "己": "土",
+    "庚": "金",
+    "辛": "金",
+    "壬": "水",
+    "癸": "水"
+  },
+  "branch_element": {
+    "子": "水",
+    "丑": "土",
+    "寅": "木",
+    "卯": "木",
+    "辰": "土",
+    "巳": "火",
+    "午": "火",
+    "未": "土",
+    "申": "金",
+    "酉": "金",
+    "戌": "土",
+    "亥": "水"
+  },
+  "star_element": {
+    "廉贞": "火",
+    "破军": "水",
+    "武曲": "金",
+    "太阳": "火",
+    "天机": "木",
+    "天梁": "土",
+    "紫微": "土",
+    "太阴": "水",
+    "天同": "水",
+    "文昌": "金",
+    "巨门": "水",
+    "贪狼": "木",
+    "右弼": "土",
+    "左辅": "土",
+    "文曲": "水"
+  },
+  "four_transformations": {
+    "甲": {"禄": "廉贞", "权": "破军", "科": "武曲", "忌": "太阳"},
+    "乙": {"禄": "天机", "权": "天梁", "科": "紫微", "忌": "太阴"},
+    "丙": {"禄": "天同", "权": "天机", "科": "文昌", "忌": "廉贞"},
+    "丁": {"禄": "太阴", "权": "天同", "科": "天机", "忌": "巨门"},
+    "戊": {"禄": "贪狼", "权": "太阴", "科": "右弼", "忌": "天机"},
+    "己": {"禄": "武曲", "权": "贪狼", "科": "天梁", "忌": "文曲"},
+    "庚": {"禄": "太阳", "权": "武曲", "科": "太阴", "忌": "天同"},
+    "辛": {"禄": "巨门", "权": "太阳", "科": "文曲", "忌": "文昌"},
+    "壬": {"禄": "天梁", "权": "紫微", "科": "左辅", "忌": "武曲"},
+    "癸": {"禄": "破军", "权": "巨门", "科": "太阴", "忌": "贪狼"}
+  },
+  "weights": {
+    "transformation": {"禄": 3, "权": 2, "科": 1, "忌": 4},
+    "day_stem": 2,
+    "day_branch": 2,
+    "nayin": 1
+  },
+  "group_rules": {
+    "baseline": {
+      "selection": "coverage_then_global_fill",
+      "blue_selection": "highest_total_score"
+    },
+    "corrected": {
+      "selection": "cluster_quota",
+      "cluster_quota": [3, 2, 1],
+      "blue_selection": "highest_ji_score_else_highest_total_score"
+    }
+  },
+  "hash_tiebreak": {
+    "algorithm": "SHA-256",
+    "template": "{canonical_input}|{group}|{number}",
+    "sort": "hex_digest_ascending_then_number_ascending"
+  }
+}
