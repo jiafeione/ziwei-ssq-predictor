@@ -28,5 +28,6 @@ def main():
     new_state=seal_manual_state(new_state)
     forecast['data_assurance']='source_verified_public_web'
     write_json(args.state_output,new_state); write_json(args.forecast_output,forecast)
-    print(json.dumps({'target':forecast['target'],'baseline':forecast['baseline'],'residual9_corrected':forecast['residual9_corrected'],'window':forecast['window'],'state_output':str(args.state_output),'forecast_output':str(args.forecast_output)},ensure_ascii=False,indent=2))
+    core=forecast.get('core_forecast', forecast)
+    print(json.dumps({'target':core['target'],'baseline':core['baseline'],'residual9_corrected':core['residual9_corrected'],'window':core['window'],'state_output':str(args.state_output),'forecast_output':str(args.forecast_output)},ensure_ascii=False,indent=2))
 if __name__=='__main__': main()

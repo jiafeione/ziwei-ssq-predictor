@@ -4,6 +4,105 @@
     {
       "accepted_for_calculation": true,
       "actual": {
+        "blue": "04",
+        "red_sorted": [
+          "04",
+          "11",
+          "14",
+          "22",
+          "26",
+          "27"
+        ]
+      },
+      "baseline_prediction": {
+        "blue": "14",
+        "red": [
+          "01",
+          "09",
+          "14",
+          "19",
+          "28",
+          "32"
+        ]
+      },
+      "draw_date": "2026-10-13",
+      "entry_assurance": "source_verified_public_web",
+      "issue": "2026117",
+      "position": 1,
+      "ziwei_input": {
+        "day_pillar": "庚申",
+        "nayin_element": "木"
+      }
+    },
+    {
+      "accepted_for_calculation": true,
+      "actual": {
+        "blue": "12",
+        "red_sorted": [
+          "10",
+          "19",
+          "24",
+          "27",
+          "28",
+          "33"
+        ]
+      },
+      "baseline_prediction": {
+        "blue": "03",
+        "red": [
+          "02",
+          "03",
+          "13",
+          "16",
+          "23",
+          "30"
+        ]
+      },
+      "draw_date": "2026-10-11",
+      "entry_assurance": "source_verified_public_web",
+      "issue": "2026116",
+      "position": 2,
+      "ziwei_input": {
+        "day_pillar": "戊午",
+        "nayin_element": "火"
+      }
+    },
+    {
+      "accepted_for_calculation": true,
+      "actual": {
+        "blue": "03",
+        "red_sorted": [
+          "04",
+          "13",
+          "14",
+          "18",
+          "22",
+          "24"
+        ]
+      },
+      "baseline_prediction": {
+        "blue": "08",
+        "red": [
+          "05",
+          "08",
+          "16",
+          "18",
+          "23",
+          "33"
+        ]
+      },
+      "draw_date": "2026-10-08",
+      "entry_assurance": "source_verified_public_web",
+      "issue": "2026115",
+      "position": 3,
+      "ziwei_input": {
+        "day_pillar": "乙卯",
+        "nayin_element": "水"
+      }
+    },
+    {
+      "accepted_for_calculation": true,
+      "actual": {
         "blue": "10",
         "red_sorted": [
           "07",
@@ -28,7 +127,7 @@
       "draw_date": "2026-10-06",
       "entry_assurance": "source_verified_public_web",
       "issue": "2026114",
-      "position": 1,
+      "position": 4,
       "ziwei_input": {
         "day_pillar": "癸丑",
         "nayin_element": "木"
@@ -61,7 +160,7 @@
       "draw_date": "2026-09-29",
       "entry_assurance": "source_verified_public_web",
       "issue": "2026113",
-      "position": 2,
+      "position": 5,
       "ziwei_input": {
         "day_pillar": "丙午",
         "nayin_element": "水"
@@ -94,7 +193,7 @@
       "draw_date": "2026-09-27",
       "entry_assurance": "source_verified_public_web",
       "issue": "2026112",
-      "position": 3,
+      "position": 6,
       "ziwei_input": {
         "day_pillar": "甲辰",
         "nayin_element": "火"
@@ -127,7 +226,7 @@
       "draw_date": "2026-09-24",
       "entry_assurance": "source_verified_public_web",
       "issue": "2026111",
-      "position": 4,
+      "position": 7,
       "ziwei_input": {
         "day_pillar": "辛丑",
         "nayin_element": "土"
@@ -160,7 +259,7 @@
       "draw_date": "2026-09-22",
       "entry_assurance": "source_verified_public_web",
       "issue": "2026110",
-      "position": 5,
+      "position": 8,
       "ziwei_input": {
         "day_pillar": "己亥",
         "nayin_element": "木"
@@ -193,157 +292,63 @@
       "draw_date": "2026-09-20",
       "entry_assurance": "source_verified_public_web",
       "issue": "2026109",
-      "position": 6,
+      "position": 9,
       "ziwei_input": {
         "day_pillar": "丁酉",
         "nayin_element": "火"
-      }
-    },
-    {
-      "accepted_for_calculation": true,
-      "actual": {
-        "blue": "16",
-        "red_sorted": [
-          "06",
-          "11",
-          "13",
-          "14",
-          "20",
-          "28"
-        ]
-      },
-      "baseline_prediction": {
-        "blue": "02",
-        "red": [
-          "02",
-          "17",
-          "26",
-          "27",
-          "28",
-          "29"
-        ]
-      },
-      "draw_date": "2026-09-17",
-      "entry_assurance": "source_verified_public_web",
-      "issue": "2026108",
-      "position": 7,
-      "ziwei_input": {
-        "day_pillar": "甲午",
-        "nayin_element": "金"
-      }
-    },
-    {
-      "accepted_for_calculation": true,
-      "actual": {
-        "blue": "04",
-        "red_sorted": [
-          "01",
-          "05",
-          "09",
-          "17",
-          "24",
-          "33"
-        ]
-      },
-      "baseline_prediction": {
-        "blue": "15",
-        "red": [
-          "11",
-          "15",
-          "19",
-          "20",
-          "25",
-          "30"
-        ]
-      },
-      "draw_date": "2026-09-15",
-      "entry_assurance": "source_verified_public_web",
-      "issue": "2026107",
-      "position": 8,
-      "ziwei_input": {
-        "day_pillar": "壬辰",
-        "nayin_element": "水"
-      }
-    },
-    {
-      "accepted_for_calculation": true,
-      "actual": {
-        "blue": "14",
-        "red_sorted": [
-          "06",
-          "11",
-          "13",
-          "14",
-          "22",
-          "30"
-        ]
-      },
-      "baseline_prediction": {
-        "blue": "11",
-        "red": [
-          "01",
-          "11",
-          "12",
-          "13",
-          "29",
-          "31"
-        ]
-      },
-      "draw_date": "2026-09-13",
-      "entry_assurance": "user_attested_not_source_verified",
-      "issue": "2026106",
-      "position": 9,
-      "ziwei_input": {
-        "day_pillar": "庚寅",
-        "nayin_element": "木"
       }
     }
   ],
   "calendar": {
     "calendar_id": "ZW-DAILY-CALENDAR-2026-2099-V1",
-    "path": "/home/ubuntu/ssq_project/uploaded_project/manus_project_ssq_latest_2026096/offline_calendar/zw_daily_calendar_2026_2099.jsonl",
+    "path": "/home/ubuntu/skills/ziwei-ssq-predictor/scripts/offline_calendar/zw_daily_calendar_2026_2099.jsonl",
     "sha256": "ba9a48b3dbcd7c30ba9b94a8dc14b007d0f7d8178dd2ec67b90da3089a02eb69"
   },
   "core_algorithm_id": "ZW-SSQ-RESIDUAL9-V3",
   "core_spec_version": "ZW-SSQ-RESIDUAL9-V3.0.0",
-  "data_assurance": "混合状态：2026107–2026114为公开网页来源核验结果；更早记录沿用既有项目记录。",
+  "data_assurance": "公开网页双来源核验结果；冻结配置、日历和算法未改变。",
   "manual_input_format": "previous_result 包含 issue、draw_date、weekday、red_sorted、blue；next_target 包含 issue、draw_date、weekday。",
-  "manual_state_sha256": "14e10573d405d81ccedd8273359a2669266b3fa11fd808bce5ff3cdc88e5989c",
+  "manual_state_sha256": "87345b61646adc93c1b875d58ceea42385f3f0b7f2a1283a4cca62ab19b902d1",
   "manual_state_version": "ZW-SSQ-RESIDUAL9-MANUAL-STATE-v1.0.0",
   "pending_forecast": {
     "baseline_prediction": {
-      "blue": "08",
+      "blue": "05",
       "red": [
         "05",
-        "08",
-        "16",
-        "18",
-        "23",
-        "33"
+        "10",
+        "14",
+        "15",
+        "26",
+        "30"
       ]
     },
     "forecast_metadata": {
       "config_sha256": "56723e12c7324df48e03ab46f335bd5482a4468b162a761052fa25d1689d8b94",
       "core_algorithm_id": "ZW-SSQ-RESIDUAL9-V3",
-      "residual_state_sha256": "7a55c6ecafe7fa60b5931f308b6650895dd51670fa58ec914d3c280eda9338e0"
+      "residual_state_sha256": "01b145b1b04fb840c710e3ba47d9f287dcbb887be2163ed152d7b6ac152f3f2a"
     },
     "residual9_corrected": {
-      "blue": "03",
+      "blue": "10",
       "red": [
-        "03",
-        "08",
-        "13",
-        "18",
-        "23",
-        "33"
+        "05",
+        "10",
+        "15",
+        "20",
+        "24",
+        "25"
       ]
     },
     "target": {
-      "day_pillar": "乙卯",
-      "draw_date": "2026-10-08",
-      "issue": "2026115",
+      "day_pillar": "壬戌",
+      "draw_date": "2026-10-15",
+      "issue": "2026118",
       "nayin_element": "水"
     },
     "verification_status": "pending_user_attested_result"
-  }
+  },
+  "source_urls": [
+    "https://sports.163.com/caipiao/lottery/ssq/2026117",
+    "https://lotto.sina.cn/open",
+    "https://www.yzfcw.com/game/ssqAnnounce"
+  ]
 }

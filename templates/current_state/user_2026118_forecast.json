@@ -1,0 +1,147 @@
+{
+  "calendar": {
+    "calendar_id": "ZW-DAILY-CALENDAR-2026-2099-V1",
+    "path": "/home/ubuntu/skills/ziwei-ssq-predictor/scripts/offline_calendar/zw_daily_calendar_2026_2099.jsonl",
+    "sha256": "ba9a48b3dbcd7c30ba9b94a8dc14b007d0f7d8178dd2ec67b90da3089a02eb69"
+  },
+  "core_algorithm_id": "ZW-SSQ-RESIDUAL9-V3",
+  "core_forecast": {
+    "algorithm_id": "ZW-SSQ-RESIDUAL9-V3",
+    "base_algorithm_id": "ZW-SSQ-DETERMINISTIC-V1",
+    "base_spec_version": "ZW-SSQ-v1.0.0",
+    "baseline": {
+      "blue": "05",
+      "red": [
+        "05",
+        "10",
+        "14",
+        "15",
+        "26",
+        "30"
+      ]
+    },
+    "candidate_coverage": {
+      "blue_candidates_evaluated": 16,
+      "blue_domain": "01-16",
+      "permanent_exclusions": [],
+      "red_candidates_evaluated": 33,
+      "red_domain": "01-33"
+    },
+    "config_sha256": "56723e12c7324df48e03ab46f335bd5482a4468b162a761052fa25d1689d8b94",
+    "element_scores": {
+      "土": 8,
+      "木": 0,
+      "水": 3,
+      "火": 0,
+      "金": 4
+    },
+    "residual9_corrected": {
+      "blue": "10",
+      "blue_selection_audit": {
+        "10": {
+          "element": "土",
+          "final_score": 54,
+          "residual_score": 6,
+          "tie_hash": "567af21da2d39849d2ea77567e1230369ee07d257a6162fea97a6e24b1144666",
+          "ziwei_base": 8
+        }
+      },
+      "red": [
+        "05",
+        "10",
+        "15",
+        "20",
+        "24",
+        "25"
+      ],
+      "red_selection_audit": {
+        "05": {
+          "element": "土",
+          "final_score": 41,
+          "residual_score": -7,
+          "tie_hash": "2853acae978a098d29adca24c7d88982a3fd95bce5a13a7c9ae6e66d292a2c36",
+          "ziwei_base": 8
+        },
+        "10": {
+          "element": "土",
+          "final_score": 56,
+          "residual_score": 8,
+          "tie_hash": "567af21da2d39849d2ea77567e1230369ee07d257a6162fea97a6e24b1144666",
+          "ziwei_base": 8
+        },
+        "15": {
+          "element": "土",
+          "final_score": 46,
+          "residual_score": -2,
+          "tie_hash": "a6dd1213cbc1bf050e374a8b123b4141db9dad5d044ba2838ad082790754f0fa",
+          "ziwei_base": 8
+        },
+        "20": {
+          "element": "土",
+          "final_score": 49,
+          "residual_score": 1,
+          "tie_hash": "775c2d2f5489ccb6260f5a93b271f6f5aa1dcace45df9ad1cabe751183628603",
+          "ziwei_base": 8
+        },
+        "24": {
+          "element": "金",
+          "final_score": 47,
+          "residual_score": 23,
+          "tie_hash": "8129c3fc3c8933c34dac4ba730744cfdacfe8a28c033b9bf254b94921a20a33f",
+          "ziwei_base": 4
+        },
+        "25": {
+          "element": "土",
+          "final_score": 48,
+          "residual_score": 0,
+          "tie_hash": "fc23947fb783938c218636456862a307593da815abb180a5940a4f8d3764a984",
+          "ziwei_base": 8
+        }
+      }
+    },
+    "spec_version": "ZW-SSQ-RESIDUAL9-V3.0.0",
+    "target": {
+      "algorithm_id": "ZW-SSQ-DETERMINISTIC-V1",
+      "config_digest": "56723e12c7324df48e03ab46f335bd5482a4468b162a761052fa25d1689d8b94",
+      "day_pillar": "壬戌",
+      "draw_date": "2026-10-15",
+      "issue": "2026118",
+      "nayin_element": "水",
+      "spec_version": "ZW-SSQ-v1.0.0"
+    },
+    "window": {
+      "issues": [
+        "2026117",
+        "2026116",
+        "2026115",
+        "2026114",
+        "2026113",
+        "2026112",
+        "2026111",
+        "2026110",
+        "2026109"
+      ],
+      "length": 9,
+      "order": "newest_to_oldest",
+      "residual_state_sha256": "01b145b1b04fb840c710e3ba47d9f287dcbb887be2163ed152d7b6ac152f3f2a",
+      "weights": [
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ]
+    }
+  },
+  "data_assurance": "source_verified_public_web",
+  "manual_assisted_algorithm_id": "ZW-SSQ-RESIDUAL9-V3-MANUAL-ASSISTED",
+  "source_urls": [
+    "https://sports.163.com/caipiao/lottery/ssq/2026117",
+    "https://lotto.sina.cn/open",
+    "https://www.yzfcw.com/game/ssqAnnounce"
+  ]
+}
